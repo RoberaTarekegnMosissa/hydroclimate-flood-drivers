@@ -1,0 +1,4 @@
+import xarray as xr
+ds=xr.open_dataset(r"C:\Users\rober\New folder\My_own_Project\8c059183fbbbfeaa0274283ea638fabe\data_stream-oper_stepType-accum.nc")
+print(ds)
+print(ds.tp.attrs)  # to identify unit of tp and see other attributes
